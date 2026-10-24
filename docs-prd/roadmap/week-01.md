@@ -34,7 +34,7 @@
 - [ ] `BaseEntity` (`@Id UUID`, `createdAt`, `updatedAt` via `@CreationTimestamp` / `@UpdateTimestamp`).
 - [ ] App starts; `flyway_schema_history` shows V1.
 - [ ] `Slugifier` with unit tests copied from the behaviour of `web/src/lib/slugify.ts` (`"Hello World!"` → `"hello-world"`).
-
+Remove .env
 ## Day 4 — API envelope + errors
 - [ ] `ApiResponse<T>(T data)`, `PageResponse<T>`, `ErrorResponse(error: {code, message, details[]})`.
 - [ ] `ErrorCode` enum + `AppException(ErrorCode, message)`.
